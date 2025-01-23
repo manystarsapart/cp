@@ -38,6 +38,4 @@ int main() {
     // increment x.second indexed member each time someone has them as their boss
 
     for (auto x : count) {cout << x << "\n";}
-
-
 }
