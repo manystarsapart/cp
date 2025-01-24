@@ -2,9 +2,8 @@
 using namespace std;
 
 bool compareStringNumbers(string a, string b) {
-    if (a > b) {
-        // in terms of 
-    }
+    if (a.size() != b.size()) {return a.length() < b.length();} 
+    else {return a < b;}
 }
 
 int main() {
@@ -14,12 +13,8 @@ int main() {
         string add; cin >> add;
         v.push_back(add);
     }
-    
-
-
 
     sort(v.begin(),v.end(),compareStringNumbers);
-
 
     for (auto x : v) {
         cout << x << " ";

@@ -1,3 +1,15 @@
+// GENERAL
+
+#include <bits/stdc++.h> 
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false); cin.tie(0); // fast i/o
+
+
+}
+
+
 // DEALING WITH VECTORS
 
 #include <bits/stdc++.h>
@@ -15,3 +27,6 @@ int main() {
         cout << x << " ";
     }
 }
+
+
+
