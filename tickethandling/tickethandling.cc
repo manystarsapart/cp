@@ -25,6 +25,11 @@ int main() {
             if (!type2ticket.empty()) {  
                 cout << type2ticket[0] << "\n";
                 type2ticket.pop_front();
+            } else if (!type1ticket.empty()) {
+                cout << type1ticket[0] << "\n";
+                type1ticket.pop_front();
+            } else {
+                cout << -1 << "\n";
             }
         }
     }

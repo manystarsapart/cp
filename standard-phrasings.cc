@@ -29,4 +29,7 @@ int main() {
 }
 
 
-
+// RETURN INDEX IN ALPHABET BY INPUTTING THE LETTER
+int returnVal(char x) {
+    return (int)x - 97;
+}
