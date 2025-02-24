@@ -1,0 +1,7 @@
+1. trainorbus: 100/100
+2. duckbuttons: 24/100
+3. snacks: 17/100
+4. itinerary: 0/100
+5. lasers2: 0/100
+
+total: 141/500
